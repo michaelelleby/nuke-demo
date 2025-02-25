@@ -1,0 +1,6 @@
+@nuke_cop_HostAddress = http://localhost:5084
+
+GET {{nuke_cop_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
